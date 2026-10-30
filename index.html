@@ -35,13 +35,18 @@
     <!-- Contenedor principal centrado -->
     <div class="w-full max-w-md flex flex-col items-center mx-auto relative">
 
-        <!-- Logotipo de Mazda ubicado exactamente en la esquina superior izquierda sin alterar la estructura -->
-        <div class="w-full flex justify-start mb-1 px-1">
-            <img src="./logomazda.png" alt="Mazda Logo" class="w-28 object-contain">
+        <!-- Sección Superior: Logo de Mazda a la altura exacta de la foto de perfil -->
+        <div class="w-full flex items-center justify-between mb-4 px-2">
+            <!-- Logo de Mazda alineado a la izquierda -->
+            <div class="w-32 flex justify-start">
+                <img src="./logomazda.png" alt="Mazda Logo" class="w-28 object-contain">
+            </div>
+            <!-- Espaciador simétrico para centrar perfectamente la foto después -->
+            <div class="w-32"></div>
         </div>
 
-        <!-- Imagen de Perfil Circular -->
-        <div class="mb-4 relative">
+        <!-- Imagen de Perfil Circular (centrada) -->
+        <div class="mb-4 relative -mt-16">
             <div class="w-44 h-44 rounded-full overflow-hidden border-2 border-white/20 shadow-2xl bg-gray-800 flex items-center justify-center">
                 <img src="./gabyfoto.jpg" alt="Gabriela Ramos" class="w-full h-full object-cover">
             </div>
