@@ -6,6 +6,8 @@
     <title>Link in Bio - Mazda Cumbayá</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para los íconos oficiales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             background-image: url('./fondomazda.jpg');
@@ -35,17 +37,15 @@
     <!-- Contenedor principal centrado -->
     <div class="w-full max-w-md flex flex-col items-center mx-auto relative">
 
-        <!-- Sección Superior: Logo de Mazda a la altura exacta de la foto de perfil -->
+        <!-- Sección Superior: Logo de Mazda a la altura exacta del recuadro -->
         <div class="w-full flex items-center justify-between mb-4 px-2">
-            <!-- Logo de Mazda alineado a la izquierda -->
             <div class="w-32 flex justify-start">
                 <img src="./logomazda.png" alt="Mazda Logo" class="w-28 object-contain">
             </div>
-            <!-- Espaciador simétrico para centrar perfectamente la foto después -->
             <div class="w-32"></div>
         </div>
 
-        <!-- Imagen de Perfil Circular (centrada) -->
+        <!-- Imagen de Perfil Circular -->
         <div class="mb-4 relative -mt-16">
             <div class="w-44 h-44 rounded-full overflow-hidden border-2 border-white/20 shadow-2xl bg-gray-800 flex items-center justify-center">
                 <img src="./gabyfoto.jpg" alt="Gabriela Ramos" class="w-full h-full object-cover">
@@ -63,13 +63,11 @@
         <!-- Botones de Enlaces -->
         <div class="w-full flex flex-col gap-3.5 mb-10">
             
-            <!-- WhatsApp -->
+            <!-- WhatsApp (Círculo blanco y tu código de ícono) -->
             <a href="https://wa.me/593995856403" target="_blank" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
                 <div class="flex items-center space-x-4">
-                    <div class="w-8 h-8 rounded-full bg-[#25D366] flex items-center justify-center p-1.5 shadow">
-                        <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24">
-                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448c-.63.351-5.188 1.839-5.188 1.839zm12.029-20.675c-5.498 0-9.972 4.474-9.974 9.974-.001 1.802.49 3.555 1.424 5.093l-.935 3.414 3.497-.917c1.479.807 3.155 1.233 4.876 1.235h.004c5.497 0 9.972-4.475 9.974-9.975.002-2.665-1.036-5.174-2.915-7.054-1.879-1.88-4.388-2.918-7.052-2.918zm5.503 14.195c-.223-.112-1.32-.652-1.524-.727-.204-.075-.353-.112-.502.112-.15.223-.577.727-.707.877-.13.15-.26.168-.483.056-.223-.112-.39-.35-2.073-1.282-1.281-.707-2.146-1.589-2.399-1.812-.253-.223-.027-.344.098-.456.101-.1.223-.26.335-.39.112-.13.15-.223.224-.373.075-.15.037-.28-.018-.39-.056-.112-.502-1.211-.689-1.659-.181-.439-.366-.381-.502-.388l-.429-.008c-.15 0-.39.056-.595.28-.204.223-.781.762-.781 1.861s.8 2.158.91 2.308c.112.15 1.572 2.398 3.807 3.364.533.23.948.367 1.272.47.534.17 1.021.146 1.405.089.431-.064 1.32-.54 1.506-1.062.185-.522.185-.969.13-1.062-.055-.093-.203-.149-.426-.261z"/>
-                        </svg>
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow">
+                        <i class="icon whatsapp-color fa-brands fa-whatsapp text-lg" style="color: #25D366;"></i>
                     </div>
                     <span class="text-xs font-bold tracking-widest">WHATSAPP</span>
                 </div>
