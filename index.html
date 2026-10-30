@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link in Bio - Mazda Cumbayá</title>
+    <!-- Tailwind CSS para un diseño limpio y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fondo texturizado exacto cargado desde GitHub */
+        body {
+            background-image: url('fondomazda.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        /* Estilo para los botones con bordes cuadrados y esquinas ligeramente redondeadas */
+        .link-card {
+            background: rgba(20, 20, 20, 0.45);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .link-card:hover {
+            background: rgba(40, 40, 40, 0.6);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="min-h-screen text-white flex flex-col items-center justify-between py-6 px-4">
+
+    <!-- Contenedor principal centrado -->
+    <div class="w-full max-w-md flex flex-col items-center mx-auto">
+
+        <!-- Logotipo de Mazda -->
+        <div class="w-full flex justify-start mb-6 px-2">
+            <img src="mazdalogo.jpg" alt="Mazda Logo" class="h-8 object-contain">
+        </div>
+
+        <!-- Imagen de Perfil Circular -->
+        <div class="mb-4 relative">
+            <div class="w-44 h-44 rounded-full overflow-hidden border-2 border-white/20 shadow-2xl">
+                <img src="gabyfoto.jpg" alt="Gabriela Ramos" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <!-- Información de la Persona -->
+        <div class="text-center mb-8">
+            <h1 class="text-lg font-bold tracking-wider text-white">GABRIELA RAMOS</h1>
+            <h2 class="text-sm font-semibold tracking-wider text-white mb-2">JEFE COMERCIAL</h2>
+            <!-- Línea roja distintiva -->
+            <div class="w-16 h-0.5 bg-red-600 mx-auto my-1"></div>
+            <p class="text-xs tracking-widest text-gray-300 uppercase mt-2">MAZDA CUMBAYA</p>
+        </div>
+
+        <!-- Botones de Enlaces -->
+        <div class="w-full flex flex-col gap-3.5 mb-10">
+            
+            <!-- WhatsApp -->
+            <a href="https://wa.me/" target="_blank" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center p-1.5 shadow">
+                        <img src="whatsapp-icon.png" alt="WhatsApp" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-xs font-bold tracking-widest">WHATSAPP</span>
+                </div>
+                <div class="border-l border-white/30 pl-4">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </div>
+            </a>
+
+            <!-- Reseña de Google -->
+            <a href="#" target="_blank" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center p-1.5 shadow">
+                        <img src="google-icon.png" alt="Google" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-xs font-bold tracking-widest">RESEÑA DE GOOGLE</span>
+                </div>
+                <div class="border-l border-white/30 pl-4">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </div>
+            </a>
+
+            <!-- Correo -->
+            <a href="mailto:" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center p-1.5 shadow">
+                        <img src="email-icon.png" alt="Correo" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-xs font-bold tracking-widest">CORREO</span>
+                </div>
+                <div class="border-l border-white/30 pl-4">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </div>
+            </a>
+
+            <!-- Ubicación -->
+            <a href="#" target="_blank" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center p-1.5 shadow">
+                        <img src="location-icon.png" alt="Ubicación" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-xs font-bold tracking-widest">UBICACIÓN</span>
+                </div>
+                <div class="border-l border-white/30 pl-4">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="#" target="_blank" class="link-card flex items-center justify-between px-4 py-3.5 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-8 h-8 rounded-full bg-white flex items-center justify-center p-1.5 shadow">
+                        <img src="instagram-icon.png" alt="Instagram" class="w-full h-full object-contain">
+                    </div>
+                    <span class="text-xs font-bold tracking-widest">INSTAGRAM</span>
+                </div>
+                <div class="border-l border-white/30 pl-4">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Logotipo TAPME en el pie -->
+        <div class="w-full flex flex-col items-center justify-center mt-auto pb-4">
+            <img src="logotapme.png" alt="TapMe Logo" class="h-6 object-contain mb-1">
+            <p class="text-[9px] tracking-[0.25em] text-gray-400 uppercase">CONECTA CON UN TOQUE</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
